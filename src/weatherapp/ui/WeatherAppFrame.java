@@ -752,8 +752,8 @@ public class WeatherAppFrame extends JFrame {
         field.setForeground(theme.getPrimaryTextColor());
         field.setCaretColor(theme.getPrimaryTextColor());
         field.setBorder(BorderFactory.createCompoundBorder(
-                new RoundedBorder(theme.getCardBorder(), 1, 8), // change 8 to your preferred radius
-                BorderFactory.createEmptyBorder(4, 8, 4, 8)
+                new RoundedBorder(theme.getCardBorder(), 1, 24),
+                BorderFactory.createEmptyBorder(6, 14, 6, 14)
         ));
         return field;
     }
