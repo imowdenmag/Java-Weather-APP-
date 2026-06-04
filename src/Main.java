@@ -1,38 +1,13 @@
 import weatherapp.ui.WeatherAppFrame;
 
 import javax.swing.SwingUtilities;
-import javax.swing.UIManager;
+import javax.swing.UIManager;/**
+ /* Entry point for the Weather Information App.
 
-/**
- * Entry point for the Weather Information App.
- *
- * <p>Replace {@code YOUR_API_KEY_HERE} with a valid OpenWeatherMap API key
- * before compiling and running. Free keys are available at:
- * https://openweathermap.org/api</p>
- *
- * <p>To compile from the {@code src/} directory:
- * <pre>
- *   javac -d ../out weatherapp/Main.java \
- *         weatherapp/model/*.java \
- *         weatherapp/service/*.java \
- *         weatherapp/util/*.java \
- *         weatherapp/ui/*.java
- * </pre>
- *
- * To run:
- * <pre>
- *   java -cp ../out weatherapp.Main
- * </pre>
- * </p>
  *
  * @author Owden Magnusen
  */
 public class Main {
-
-    /**
-     * Your OpenWeatherMap API key.
-     * Obtain a free key at: https://openweathermap.org/api
-     */
     private static final String API_KEY = "eab8f8c318cf6970a932ae1537663428";
 
     /**

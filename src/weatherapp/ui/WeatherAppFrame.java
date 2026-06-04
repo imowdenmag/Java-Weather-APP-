@@ -134,6 +134,8 @@ public class WeatherAppFrame extends JFrame {
         configureFrame();
         buildLayout();
         bindKeyboardShortcuts();
+
+
     }
 
     // -------------------------------------------------------------------------
@@ -750,7 +752,7 @@ public class WeatherAppFrame extends JFrame {
         field.setForeground(theme.getPrimaryTextColor());
         field.setCaretColor(theme.getPrimaryTextColor());
         field.setBorder(BorderFactory.createCompoundBorder(
-                BorderFactory.createLineBorder(theme.getCardBorder(), 1, true),
+                new RoundedBorder(theme.getCardBorder(), 1, 8), // change 8 to your preferred radius
                 BorderFactory.createEmptyBorder(4, 8, 4, 8)
         ));
         return field;
