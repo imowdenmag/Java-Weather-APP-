@@ -1,10 +1,8 @@
 package weatherapp.ui;
 
-import weatherapp.model.SearchHistoryEntry;
 import weatherapp.model.WeatherData;
 import weatherapp.service.SearchHistoryManager;
 import weatherapp.service.WeatherService;
-import weatherapp.service.WeatherServiceException;
 import weatherapp.util.TimeOfDayUtil;
 import weatherapp.util.UnitConverter;
 import weatherapp.util.WeatherIconUtil;
@@ -32,7 +30,6 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
 import javax.swing.SwingConstants;
-import javax.swing.SwingUtilities;
 import javax.swing.SwingWorker;
 
 /**
